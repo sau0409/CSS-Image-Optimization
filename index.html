@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Optimization</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <main>
+        <h1>CSS optimization.</h1>
+
+        <div class="info_cont">
+            <h4>We use CSS media queries to provide different images for diffrent widths.</h4>
+            <p>Breakpoints. We provide min and max width and all devices falling under a category will show image for that width only.</p>
+            <ul>
+                <li>max-width: 800px || Image Width: 640px</li>
+                <li>min-width: 800px and  max-width: 1200px || Image Width: 1920px</li>
+                <li>min-width: 1200px and  max-width: 2200px || Image Width: 2400px</li>
+                <li>min-width: 2200px || Image Width: 6000px</li>
+            </ul>
+            <h2>We can resize the window to see the images chnaging according to break points.</h2>
+        </div>
+
+        <section>
+            <h5>Banner/Hero image with 100% width of viewport.</h5>
+            <div class="hero">
+            </div>
+            <h5>Content image with 50% width of viewport. For devices width greater than 600px</h5>
+            <h5>And for rest devices 100% width of viewport.</h5>
+            <div class="description">
+                <div class="desc__image_cont">
+                </div>
+                <div class="desc_text">
+                    <h4>Apple</h4>
+                    <p>An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are
+                        cultivated worldwide and are the most widely grown species in the genus Malus. The tree
+                        originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today.
+                        Apples have been grown for thousands of years in Asia and Europe and were brought to North
+                        America by European colonists. Apples have religious and mythological significance in many
+                        cultures, including Norse, Greek, and European Christian tradition.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
